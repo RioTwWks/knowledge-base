@@ -166,6 +166,10 @@ yum install mc
 
 # 5. Картинки
 
+```
+![pic1](img/photo.jpg)
+```
+
 ![pic1](img/photo.jpg)
 
 # 6. Таблицы
