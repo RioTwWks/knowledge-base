@@ -170,7 +170,9 @@ yum install mc
 
 # 6. Youtube
 
+```
 {% youtube src="https://youtu.be/M6vD-iLc_PI?si=Yx9KXNMQeI45eUjF" %}{% endyoutube %}
+```
 
 [Главная][1]
 
