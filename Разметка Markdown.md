@@ -168,11 +168,6 @@ yum install mc
 
 ![pic1](img/photo.jpg)
 
-# 6. Youtube
-
-```
-{% youtube src="https://youtu.be/M6vD-iLc_PI?si=Yx9KXNMQeI45eUjF" %}{% endyoutube %}
-```
 
 [Главная][1]
 
