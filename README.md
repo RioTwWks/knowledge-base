@@ -1,2 +1,2 @@
-# knowledge-base
-My Knowledge Base
+# База знаний
+Моя база знаний
