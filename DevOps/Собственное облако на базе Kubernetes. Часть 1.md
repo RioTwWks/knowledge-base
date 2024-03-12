@@ -1,4 +1,4 @@
-[Главная][1]
+### [Главная][1]
 
 # DIY: Ваше собственное облако на базе Kubernetes (часть 1)
 
@@ -128,6 +128,10 @@ cat config.yaml | docker run --rm -i -v /dev:/dev --privileged "ghcr.io/siderola
 
 [2 часть](/knowledge-base/DevOps/Собственное%20облако%20на%20базе%20Kubernetes.%20Часть%202)
 
-[Главная][1]
+[3 часть](/knowledge-base/DevOps/Собственное%20облако%20на%20базе%20Kubernetes.%20Часть%203)
+
+[Оригинал статьи](https://habr.com/ru/companies/aenix/articles/795791/)
+
+### [Главная][1]
 
 [1]: /knowledge-base/
