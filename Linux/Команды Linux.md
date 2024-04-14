@@ -584,12 +584,66 @@ WantedBy=multi-user.target
 
 ![img1](/knowledge-base/img/switching.png)
 
+### Отображение интерфейсов для хоста
+
+#### СИСТЕМА1
+
+```bash
+~$ ip link
+
+2:eth0 <BROADCAST, MULTICAST, UP, LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+```
+
+#### СИСТЕМА2
+
+```bash
+ip link
+
+2:eth0 <BROADCAST, MULTICAST, UP, LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+```
+
+Для установления полноценной сети, подключим наши интерфейсы не к общему
+проводу, а к специальному устройству-коммутатору или свитчу.
+
+В этом случае мы подключили к свитчу интерфейсы с именем eth0 обоих наших
+систем.
+
+Предположим, это сеть с адресацией 192.168.1.0.
+
+### Назначение системам IP-адреса в этой сети.
+
+#### СИСТЕМА1
+
+```bash
+~$ ip addr add  192.168.1.10/24 dev eth0
+```
+
+#### СИСТЕМА2
+
+```bash
+~$ ip addr add  192.168.1.11/24 dev eth0
+```
+
+### Проверка
+
+#### СИСТЕМА1
+
+```bash
+ping 192.168.1.11
+
+PING 192.168.1.11 (192.168.1.11) 56(84) bytes of data.
+64 bytes from 192.168.1.11: icmp_seq=1 ttl=64 time=24.5 ms
+64 bytes from 192.168.1.11: icmp_seq=2 ttl=64 time=13.1 ms
+```
 
 
 
+Допустим, у нас есть еще одна сеть, содержащая систему3 и систему4. Адресация
+этой сети 192.168.2.0.
 
+Системы имеют IP-адреса 192.168.2.10 и 2.11 соответственно.
 
-
+![ing2](/knowledge-base/img/switching2.png)
 
 
 
