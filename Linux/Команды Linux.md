@@ -580,7 +580,9 @@ WantedBy=multi-user.target
 В разделе Service в ExecStart прописана команда, которая запускает исполняемый
 файл dockerd.
 
+## Маршрутизация
 
+![img1](/knowledge-base/img/switching.png)
 
 
 
