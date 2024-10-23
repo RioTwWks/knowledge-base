@@ -15,6 +15,9 @@
 * Ansible
     * [Основа](/Ansible/Основа.md)
 
+* PHP
+    * [Основа](/PHP/Основа.md)
+
 * Linux
    * [Команды Linux](/Linux/Команды%20Linux.md)
 
