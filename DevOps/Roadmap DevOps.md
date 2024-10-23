@@ -1,7 +1,5 @@
 # Roadmap DevOps
 
-### [Главная][1]
-
 ## Основные навыки
 
 ### Уверенно пользоваться Linux
@@ -273,9 +271,3 @@ CI/CD можно реализовать как с контейнерами, та
 ---
 
 Статья подготовлена по материалам вебинара [Roadmap для DevOps-специалистов](https://www.youtube.com/live/8yJTmseAUq8?si=_9UbZ9gQLrBxw2Tf). Спикер — Максим Гусев, SRE-инженер в Dodo Engineering. 
-
-[Оригинал статьи](https://habr.com/ru/companies/slurm/articles/773618/)
-
-### [Главная][1]
-
-[1]: /knowledge-base/
