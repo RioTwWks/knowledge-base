@@ -20,6 +20,8 @@
 
 * Linux
    * [Команды Linux](/Linux/Команды%20Linux.md)
+   * [Apache + Nginx](/Linux/Apache%20+%20Nginx.md)
+   * [UFW](/Linux/UFW.md)
 
 * Python
     * [Установка Python на Ubuntu](/Python/Установка%20Python%20на%20Ubuntu.md)
